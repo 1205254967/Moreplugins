@@ -1,70 +1,17 @@
 Items: {
-	MorePlugins_HeartOfSteel: {
-		DisplayName: 心之钢
+	LeafPlugins: {
+		DisplayName: 树叶
 		Tooltip:
 			'''
-			造成的伤害提升5%
-			生命药水冷却时间减少25%
-			获得2生命再生
-			[c/ffd700:你充满了力量]
+			魔力伤害提升3%
+			魔法暴击率提升5%
+			法师武器面板伤害提升3点
+			最大魔力值提升40
+			[c/228B22:大自然的力量...]
 			'''
 	}
 
-	MorePlugins_Thorn: {
-		DisplayName: 荆棘
-		Tooltip:
-			'''
-			反击敌人造成三倍伤害
-			[c/228B22:三倍奉还]
-			'''
-	}
-
-	MorePlugins_Steel: {
-		DisplayName: 合金
-		Tooltip:
-			'''
-			伤害加成1%
-			护甲穿透1点
-			攻击速度提升3%
-			防御力提升1点
-			伤害减免1%
-			移动速度提升5%
-			工具使用速度提升5%
-			[c/8b4513:一切的开始...吗？]
-			'''
-	}
-
-	MorePlugins_Nothosaur: {
-		DisplayName: 幻龙
-		Tooltip:
-			'''
-			最大仆从数量 +2
-			水上行走
-			每过两秒发射追踪泡泡
-			[c/99CCFF:不要用肥皂水润滑!]
-			'''
-	}
-
-	MorePlugins_Guide: {
-		DisplayName: 向导的祝福
-		Tooltip:
-			'''
-			获得20点最大生命值
-			武器伤害直接增加3点
-			[c/ff6b6b:你怎么忍心...]
-			'''
-	}
-
-	MorePlugins_Kaishakunin: {
-		DisplayName: 刽子手
-		Tooltip:
-			'''
-			每过5秒钟，下一次攻击伤害提升50%
-			[c/ff6b6b:拔刀斩！]
-			'''
-	}
-
-	MorePlugins_Massacre: {
+	MassacrePlugins: {
 		DisplayName: 屠戮
 		Tooltip:
 			'''
@@ -77,41 +24,16 @@ Items: {
 			'''
 	}
 
-	MorePlugins_Shadowyeggplant: {
-		DisplayName: 阴暗的茄子
+	MeatballPlugins: {
+		DisplayName: 肉球
 		Tooltip:
 			'''
-			召唤物有10%概率造成200%的伤害
-			增加50点最大魔力值
-			增加1点魔力再生
-			[c/9932cc:为什么无机物会合成有机物？]
+			让敌人的内脏炸裂开来
+			[c/ff0000:R18G]
 			'''
 	}
 
-	MorePlugins_Leaf: {
-		DisplayName: 树叶
-		Tooltip:
-			'''
-			魔力伤害提升3%
-			魔法暴击率提升5%
-			法师武器面板伤害提升3点
-			最大魔力值提升40
-			[c/228B22:大自然的力量...]
-			'''
-	}
-
-	MorePlugins_LavaSeed: {
-		DisplayName: 熔岩之心
-		Tooltip:
-			'''
-			提升5点防御
-			提升5%的伤害减免
-			攻击会使敌人造成"着火了！"的减益
-			[c/ff4500:古道热肠]
-			'''
-	}
-
-	MorePlugins_Night: {
+	NightPlugins: {
 		DisplayName: 夜晚
 		Tooltip:
 			'''
@@ -128,36 +50,27 @@ Items: {
 			'''
 	}
 
-	MorePlugins_Dusk: {
-		DisplayName: 黄昏
+	NothosaurPlugins: {
+		DisplayName: 幻龙
 		Tooltip:
 			'''
-			提升5点武器基础面板伤害
-			伤害提升5%
-			暴击率提升5%
-			提升10%攻击速度
-			5防御力与5%的伤害减免
-			获得50点最大魔力值
-			2点魔力再生与生命再生
-			攻击使敌人受到着火了，霜冻与灵液减益
-			免疫燃烧与着火了减益
-			[c/ff8c00:黄昏思念未归之人...]
+			最大仆从数量 +2
+			水上行走
+			每过两秒发射追踪泡泡
+			[c/99CCFF:不要用肥皂水润滑!]
 			'''
 	}
 
-	Holy: {
-		DisplayName: 缺角的十字架
+	NuclearWarheadPlugins: {
+		DisplayName: 核弹
 		Tooltip:
 			'''
-			3点防御
-			1最大仆从数
-			召唤物有30%概率造成150%伤害
-			5点护甲穿透
-			[c/ffff00:3个神圣锭合成就应该是3点防御！]
+			每过30秒发射一颗核弹
+			[c/008000:永不炸膛！]
 			'''
 	}
 
-	Outdoorsurvivalkit: {
+	OutdoorsurvivalkitPlugins: {
 		DisplayName: 户外生存装置
 		Tooltip:
 			'''
@@ -171,7 +84,7 @@ Items: {
 			'''
 	}
 
-	Pure: {
+	PurePlugins: {
 		DisplayName: 纯净
 		Tooltip:
 			'''
@@ -183,7 +96,53 @@ Items: {
 			'''
 	}
 
-	TerraHeart: {
+	ShadowyeggplantPlugins: {
+		DisplayName: 阴暗的茄子
+		Tooltip:
+			'''
+			召唤物有10%概率造成200%的伤害
+			增加50点最大魔力值
+			增加1点魔力再生
+			[c/9932cc:为什么无机物会合成有机物？]
+			'''
+	}
+
+	ShamanPlugins: {
+		DisplayName: 萨满
+		Tooltip:
+			'''
+			对周围敌人进行触手攻击
+			伤害与原版相同，会造成暗影焰效果
+			[c/8a2be2:隐者之紫！]
+			'''
+	}
+
+	SteelPlugins: {
+		DisplayName: 合金
+		Tooltip:
+			'''
+			伤害加成1%
+			护甲穿透1点
+			攻击速度提升3%
+			防御力提升1点
+			伤害减免1%
+			移动速度提升5%
+			工具使用速度提升5%
+			[c/8b4513:一切的开始...吗？]
+			'''
+	}
+
+	TanghuluPlugins: {
+		DisplayName: 冰糖葫芦
+		Tooltip:
+			'''
+			最大生命值提升400
+			防御力减半
+			[c/ff6b6b:打肿#充胖子]
+			'''
+	}
+
+	TerraHeartPlugins: {
 		DisplayName: 泰拉之心
 		Tooltip:
 			'''
@@ -201,72 +160,16 @@ Items: {
 			'''
 	}
 
-	Bud: {
-		DisplayName: 花苞
+	ThornPlugins: {
+		DisplayName: 荆棘
 		Tooltip:
 			'''
-			每过十秒回复40点生命值
-			[c/00ff00:你两个耳朵中间的是不是丛林孢子我问你]
+			反击敌人造成三倍伤害
+			[c/228B22:三倍奉还]
 			'''
 	}
 
-	Vibrissa: {
-		DisplayName: 触须
-		Tooltip:
-			'''
-			召唤两只可爱的小蜜
-			[c/f4a460:好痒，好痒]
-			'''
-	}
-
-	Tanghulu: {
-		DisplayName: 冰糖葫芦
-		Tooltip:
-			'''
-			最大生命值提升400
-			防御力减半
-			[c/ff6b6b:打肿#充胖子]
-			'''
-	}
-
-	NuclearWarhead: {
-		DisplayName: 核弹
-		Tooltip:
-			'''
-			每过30秒发射一颗核弹
-			[c/008000:永不炸膛！]
-			'''
-	}
-
-	Meatball: {
-		DisplayName: 肉球
-		Tooltip:
-			'''
-			让敌人的内脏炸裂开来
-			[c/ff0000:R18G]
-			'''
-	}
-
-	Disco: {
-		DisplayName: 迪斯科棱晶
-		Tooltip:
-			'''
-			生成一个迪斯科棱晶跟随在你身边
-			不占用哨兵栏位
-			[c/ff0000:打开][c/ff7f00:录][c/ffff00:音][c/00ff00:机][c/0000ff:～]
-			'''
-	}
-
-	Giantfist: {
-		DisplayName: 巨人之拳
-		Tooltip:
-			'''
-			每分钟对某一敌怪发出强力一拳造成20000伤害
-			[c/ffff00:正义执行！]
-			'''
-	}
-
-	Unity: {
+	UnityPlugins: {
 		DisplayName: 团结
 		Tooltip:
 			'''
@@ -277,26 +180,67 @@ Items: {
 			'''
 	}
 
-	Ghost: {
-		DisplayName: 幽灵
+	VibrissaPlugins: {
+		DisplayName: 触须
 		Tooltip:
 			'''
-			攻击回复造成伤害的1%
-			[c/708090:抽魂夺命]
+			召唤两只可爱的小蜜
+			[c/f4a460:好痒，好痒]
 			'''
 	}
 
-	Shaman: {
-		DisplayName: 萨满
+	PlusinsPetItem: {
+		DisplayName: Plusins Pet Item
+		Tooltip: ""
+	}
+
+	BudPlugins: {
+		DisplayName: 花苞
 		Tooltip:
 			'''
-			对周围敌人进行触手攻击
-			伤害与原版相同，会造成暗影焰效果
-			[c/8a2be2:隐者之紫！]
+			每过十秒回复40点生命值
+			[c/00ff00:你两个耳朵中间的是不是丛林孢子我问你]
 			'''
 	}
 
-	GelatinJelly: {
+	DetonatorPlugins: {
+		// DisplayName: Detonator Plugins
+		// Tooltip: ""
+	}
+
+	DiscoPlugins: {
+		DisplayName: 迪斯科棱晶
+		Tooltip:
+			'''
+			生成一个迪斯科棱晶跟随在你身边
+			不占用哨兵栏位
+			[c/ff0000:打开][c/ff7f00:录][c/ffff00:音][c/00ff00:机][c/0000ff:～]
+			'''
+	}
+
+	DuskPlugins: {
+		DisplayName: 黄昏
+		Tooltip:
+			'''
+			提升5点武器基础面板伤害
+			伤害提升5%
+			暴击率提升5%
+			提升10%攻击速度
+			5防御力与5%的伤害减免
+			获得50点最大魔力值
+			2点魔力再生与生命再生
+			攻击使敌人受到着火了，霜冻与灵液减益
+			免疫燃烧与着火了减益
+			[c/ff8c00:黄昏思念未归之人...]
+			'''
+	}
+
+	EyePlugins: {
+		// DisplayName: Eye Plugins
+		// Tooltip: ""
+	}
+
+	GelatinJellyPlugins: {
 		DisplayName: 明胶果冻
 		Tooltip:
 			'''
@@ -308,7 +252,35 @@ Items: {
 			'''
 	}
 
-	Hand: {
+	GhostPlugins: {
+		DisplayName: 幽灵
+		Tooltip:
+			'''
+			攻击回复造成伤害的1%
+			[c/708090:抽魂夺命]
+			'''
+	}
+
+	GiantfistPlugins: {
+		DisplayName: 巨人之拳
+		Tooltip:
+			'''
+			每分钟对某一敌怪发出强力一拳造成20000伤害
+			[c/ffff00:正义执行！]
+			'''
+	}
+
+	GuidePlugins: {
+		DisplayName: 向导的祝福
+		Tooltip:
+			'''
+			获得20点最大生命值
+			武器伤害直接增加3点
+			[c/ff6b6b:你怎么忍心...]
+			'''
+	}
+
+	HandPlugins: {
 		DisplayName: "[c/ffd700:手]"
 		Tooltip:
 			'''
@@ -317,69 +289,9 @@ Items: {
 			'''
 	}
 
-	PlusinsPetItem: {
-		// DisplayName: Plusins Pet Item
-		// Tooltip: ""
-	}
-
-	HeartOfQueen: {
+	HeartOfQueenPlugins: {
 		DisplayName: 女皇之心
 		Tooltip: 光之女皇的精华渗透进了此圣物。
-	}
-
-	BudPlugins: {
-		// DisplayName: Bud Plugins
-		// Tooltip: ""
-	}
-
-	DetonatorPlugins: {
-		// DisplayName: Detonator Plugins
-		// Tooltip: ""
-	}
-
-	DiscoPlugins: {
-		// DisplayName: Disco Plugins
-		// Tooltip: ""
-	}
-
-	DuskPlugins: {
-		// DisplayName: Dusk Plugins
-		// Tooltip: ""
-	}
-
-	EyePlugins: {
-		// DisplayName: Eye Plugins
-		// Tooltip: ""
-	}
-
-	GelatinJellyPlugins: {
-		// DisplayName: Gelatin Jelly Plugins
-		// Tooltip: ""
-	}
-
-	GhostPlugins: {
-		// DisplayName: Ghost Plugins
-		// Tooltip: ""
-	}
-
-	GiantfistPlugins: {
-		// DisplayName: Giantfist Plugins
-		// Tooltip: ""
-	}
-
-	GuidePlugins: {
-		// DisplayName: Guide Plugins
-		// Tooltip: ""
-	}
-
-	HandPlugins: {
-		// DisplayName: Hand Plugins
-		// Tooltip: ""
-	}
-
-	HeartOfQueenPlugins: {
-		// DisplayName: Heart Of Queen Plugins
-		// Tooltip: ""
 	}
 
 	HeartofSteelPlugins: {
@@ -388,245 +300,39 @@ Items: {
 	}
 
 	HolyPlugins: {
-		// DisplayName: Holy Plugins
-		// Tooltip: ""
+		DisplayName: 缺角的十字架
+		Tooltip:
+			'''
+			3点防御
+			1最大仆从数
+			召唤物有30%概率造成150%伤害
+			5点护甲穿透
+			[c/ffff00:3个神圣锭合成就应该是3点防御！]
+			'''
 	}
 
 	KaishakuninPlugins: {
-		// DisplayName: Kaishakunin Plugins
-		// Tooltip: ""
+		DisplayName: 刽子手
+		Tooltip:
+			'''
+			每过5秒钟，下一次攻击伤害提升50%
+			[c/ff6b6b:拔刀斩！]
+			'''
 	}
 
 	LavaSeedPlugins: {
-		// DisplayName: Lava Seed Plugins
-		// Tooltip: ""
-	}
-
-	LeafPlugins: {
-		// DisplayName: Leaf Plugins
-		// Tooltip: ""
-	}
-
-	MassacrePlugins: {
-		// DisplayName: Massacre Plugins
-		// Tooltip: ""
-	}
-
-	MeatballPlugins: {
-		// DisplayName: Meatball Plugins
-		// Tooltip: ""
-	}
-
-	NightPlugins: {
-		// DisplayName: Night Plugins
-		// Tooltip: ""
-	}
-
-	NothosaurPlugins: {
-		// DisplayName: Nothosaur Plugins
-		// Tooltip: ""
-	}
-
-	NuclearWarheadPlugins: {
-		// DisplayName: Nuclear Warhead Plugins
-		// Tooltip: ""
-	}
-
-	OutdoorsurvivalkitPlugins: {
-		// DisplayName: Outdoorsurvivalkit Plugins
-		// Tooltip: ""
-	}
-
-	PurePlugins: {
-		// DisplayName: Pure Plugins
-		// Tooltip: ""
-	}
-
-	ShadowyeggplantPlugins: {
-		// DisplayName: Shadowyeggplant Plugins
-		// Tooltip: ""
-	}
-
-	ShamanPlugins: {
-		// DisplayName: Shaman Plugins
-		// Tooltip: ""
-	}
-
-	SteelPlugins: {
-		// DisplayName: Steel Plugins
-		// Tooltip: ""
-	}
-
-	TanghuluPlugins: {
-		// DisplayName: Tanghulu Plugins
-		// Tooltip: ""
-	}
-
-	TerraHeartPlugins: {
-		// DisplayName: Terra Heart Plugins
-		// Tooltip: ""
-	}
-
-	ThornPlugins: {
-		// DisplayName: Thorn Plugins
-		// Tooltip: ""
-	}
-
-	UnityPlugins: {
-		// DisplayName: Unity Plugins
-		// Tooltip: ""
-	}
-
-	VibrissaPlugins: {
-		// DisplayName: Vibrissa Plugins
-		// Tooltip: ""
-	}
-}
-
-Mods: {
-	Moreplugins: {
-		Items: {
-			Bud: {
-				// DisplayName: Bud
-				// Tooltip: ""
-			}
-
-			Disco: {
-				// DisplayName: Disco
-				// Tooltip: ""
-			}
-
-			GelatinJelly: {
-				// DisplayName: Gelatin Jelly
-				// Tooltip: ""
-			}
-
-			Ghost: {
-				// DisplayName: Ghost
-				// Tooltip: ""
-			}
-
-			Giantfist: {
-				// DisplayName: Giantfist
-				// Tooltip: ""
-			}
-
-			Holy: {
-				// DisplayName: Holy
-				// Tooltip: ""
-			}
-
-			Meatball: {
-				// DisplayName: Meatball
-				// Tooltip: ""
-			}
-
-			MorePlugins_Dusk: {
-				// DisplayName: More Plugins_ Dusk
-				// Tooltip: ""
-			}
-
-			MorePlugins_Guide: {
-				// DisplayName: More Plugins_ Guide
-				// Tooltip: ""
-			}
-
-			MorePlugins_HeartOfSteel: {
-				// DisplayName: More Plugins_ Heart Of Steel
-				// Tooltip: ""
-			}
-
-			MorePlugins_Kaishakunin: {
-				// DisplayName: More Plugins_ Kaishakunin
-				// Tooltip: ""
-			}
-
-			MorePlugins_LavaSeed: {
-				// DisplayName: More Plugins_ Lava Seed
-				// Tooltip: ""
-			}
-
-			MorePlugins_Leaf: {
-				// DisplayName: More Plugins_ Leaf
-				// Tooltip: ""
-			}
-
-			MorePlugins_Massacre: {
-				// DisplayName: More Plugins_ Massacre
-				// Tooltip: ""
-			}
-
-			MorePlugins_Night: {
-				// DisplayName: More Plugins_ Night
-				// Tooltip: ""
-			}
-
-			MorePlugins_Nothosaur: {
-				// DisplayName: More Plugins_ Nothosaur
-				// Tooltip: ""
-			}
-
-			MorePlugins_Shadowyeggplant: {
-				// DisplayName: More Plugins_ Shadowyeggplant
-				// Tooltip: ""
-			}
-
-			MorePlugins_Steel: {
-				// DisplayName: More Plugins_ Steel
-				// Tooltip: ""
-			}
-
-			MorePlugins_Thorn: {
-				// DisplayName: More Plugins_ Thorn
-				// Tooltip: ""
-			}
-
-			NuclearWarhead: {
-				// DisplayName: Nuclear Warhead
-				// Tooltip: ""
-			}
-
-			Outdoorsurvivalkit: {
-				// DisplayName: Outdoorsurvivalkit
-				// Tooltip: ""
-			}
-
-			Pure: {
-				// DisplayName: Pure
-				// Tooltip: ""
-			}
-
-			Shaman: {
-				// DisplayName: Shaman
-				// Tooltip: ""
-			}
-
-			Tanghulu: {
-				// DisplayName: Tanghulu
-				// Tooltip: ""
-			}
-
-			TerraHeart: {
-				// DisplayName: Terra Heart
-				// Tooltip: ""
-			}
-
-			Unity: {
-				// DisplayName: Unity
-				// Tooltip: ""
-			}
-
-			Vibrissa: {
-				// DisplayName: Vibrissa
-				// Tooltip: ""
-			}
-		}
+		Tooltip:
+			'''
+			提升5点防御
+			提升5%的伤害减免
+			攻击会使敌人造成"着火了！"的减益
+			[c/ff4500:古道热肠]
+			'''
+		DisplayName: 熔岩之心
 	}
 }
 
 Projectiles: {
-	// BloodThornProjectile.DisplayName: Blood Thorn Projectile
-	// DiscoCrystalProjectile.DisplayName: Disco Crystal Projectile
 	// PlusinsPetProjectile.DisplayName: Plusins Pet Projectile
 	// DetonatorPluginsProjectile.DisplayName: Detonator Plugins Projectile
 }
@@ -634,7 +340,6 @@ Projectiles: {
 AccessorySlot: {
 	FunctionalSlot: 这是你的屁股
 	VanitySlot: 装扮 插件
-	DyeSlot: 染色
 }
 
 Buffs: {

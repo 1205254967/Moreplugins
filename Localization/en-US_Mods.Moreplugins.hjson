@@ -1,229 +1,4 @@
 Items: {
-	MorePlugins_HeartOfSteel: {
-		DisplayName: More Plugins_ Heart Of Steel
-		Tooltip: ""
-	}
-
-	MorePlugins_Thorn: {
-		DisplayName: More Plugins_ Thorn
-		Tooltip: ""
-	}
-
-	MorePlugins_Steel: {
-		DisplayName: More Plugins_ Steel
-		Tooltip: ""
-	}
-
-	MorePlugins_Nothosaur: {
-		DisplayName: More Plugins_ Nothosaur
-		Tooltip: ""
-	}
-
-	MorePlugins_Guide: {
-		DisplayName: More Plugins_ Guide
-		Tooltip: ""
-	}
-
-	MorePlugins_Kaishakunin: {
-		DisplayName: More Plugins_ Kaishakunin
-		Tooltip: ""
-	}
-
-	MorePlugins_Massacre: {
-		DisplayName: More Plugins_ Massacre
-		Tooltip: ""
-	}
-
-	MorePlugins_Shadowyeggplant: {
-		DisplayName: More Plugins_ Shadowyeggplant
-		Tooltip: ""
-	}
-
-	MorePlugins_Leaf: {
-		DisplayName: More Plugins_ Leaf
-		Tooltip: ""
-	}
-
-	MorePlugins_LavaSeed: {
-		DisplayName: More Plugins_ Lava Seed
-		Tooltip: ""
-	}
-
-	MorePlugins_Night: {
-		DisplayName: More Plugins_ Night
-		Tooltip: ""
-	}
-
-	MorePlugins_Dusk: {
-		DisplayName: More Plugins_ Dusk
-		Tooltip: ""
-	}
-
-	Holy: {
-		DisplayName: Holy
-		Tooltip: ""
-	}
-
-	Outdoorsurvivalkit: {
-		DisplayName: Outdoorsurvivalkit
-		Tooltip: ""
-	}
-
-	Pure: {
-		DisplayName: Pure
-		Tooltip: ""
-	}
-
-	TerraHeart: {
-		DisplayName: Terra Heart
-		Tooltip: ""
-	}
-
-	Bud: {
-		DisplayName: Bud
-		Tooltip: ""
-	}
-
-	Vibrissa: {
-		DisplayName: Vibrissa
-		Tooltip: ""
-	}
-
-	Tanghulu: {
-		DisplayName: Tanghulu
-		Tooltip: ""
-	}
-
-	NuclearWarhead: {
-		DisplayName: Nuclear Warhead
-		Tooltip: ""
-	}
-
-	Meatball: {
-		DisplayName: Meatball
-		Tooltip: ""
-	}
-
-	Disco: {
-		DisplayName: Disco
-		Tooltip: ""
-	}
-
-	Giantfist: {
-		DisplayName: Giantfist
-		Tooltip: ""
-	}
-
-	Unity: {
-		DisplayName: Unity
-		Tooltip: ""
-	}
-
-	Ghost: {
-		DisplayName: Ghost
-		Tooltip: ""
-	}
-
-	Shaman: {
-		DisplayName: Shaman
-		Tooltip: ""
-	}
-
-	GelatinJelly: {
-		DisplayName: Gelatin Jelly
-		Tooltip: ""
-	}
-
-	Hand: {
-		DisplayName: Hand
-		Tooltip: ""
-	}
-
-	PlusinsPetItem: {
-		DisplayName: Plusins Pet Item
-		Tooltip: ""
-	}
-
-	HeartOfQueen: {
-		DisplayName: Heart Of Queen
-		Tooltip: ""
-	}
-
-	BudPlugins: {
-		DisplayName: Bud Plugins
-		Tooltip: ""
-	}
-
-	DetonatorPlugins: {
-		DisplayName: Detonator Plugins
-		Tooltip: ""
-	}
-
-	DiscoPlugins: {
-		DisplayName: Disco Plugins
-		Tooltip: ""
-	}
-
-	DuskPlugins: {
-		DisplayName: Dusk Plugins
-		Tooltip: ""
-	}
-
-	EyePlugins: {
-		DisplayName: Eye Plugins
-		Tooltip: ""
-	}
-
-	GelatinJellyPlugins: {
-		DisplayName: Gelatin Jelly Plugins
-		Tooltip: ""
-	}
-
-	GhostPlugins: {
-		DisplayName: Ghost Plugins
-		Tooltip: ""
-	}
-
-	GiantfistPlugins: {
-		DisplayName: Giantfist Plugins
-		Tooltip: ""
-	}
-
-	GuidePlugins: {
-		DisplayName: Guide Plugins
-		Tooltip: ""
-	}
-
-	HandPlugins: {
-		DisplayName: Hand Plugins
-		Tooltip: ""
-	}
-
-	HeartOfQueenPlugins: {
-		DisplayName: Heart Of Queen Plugins
-		Tooltip: ""
-	}
-
-	HeartofSteelPlugins: {
-		DisplayName: Heartof Steel Plugins
-		Tooltip: ""
-	}
-
-	HolyPlugins: {
-		DisplayName: Holy Plugins
-		Tooltip: ""
-	}
-
-	KaishakuninPlugins: {
-		DisplayName: Kaishakunin Plugins
-		Tooltip: ""
-	}
-
-	LavaSeedPlugins: {
-		DisplayName: Lava Seed Plugins
-		Tooltip: ""
-	}
-
 	LeafPlugins: {
 		DisplayName: Leaf Plugins
 		Tooltip: ""
@@ -303,160 +78,96 @@ Items: {
 		DisplayName: Vibrissa Plugins
 		Tooltip: ""
 	}
-}
 
-Mods: {
-	Moreplugins: {
-		Items: {
-			Bud: {
-				DisplayName: Bud
-				Tooltip: ""
-			}
+	PlusinsPetItem: {
+		DisplayName: Plusins Pet Item
+		Tooltip: ""
+	}
 
-			Disco: {
-				DisplayName: Disco
-				Tooltip: ""
-			}
+	BudPlugins: {
+		DisplayName: Bud Plugins
+		Tooltip: ""
+	}
 
-			GelatinJelly: {
-				DisplayName: Gelatin Jelly
-				Tooltip: ""
-			}
+	DetonatorPlugins: {
+		DisplayName: Detonator Plugins
+		Tooltip: ""
+	}
 
-			Ghost: {
-				DisplayName: Ghost
-				Tooltip: ""
-			}
+	DiscoPlugins: {
+		DisplayName: Disco Plugins
+		Tooltip: ""
+	}
 
-			Giantfist: {
-				DisplayName: Giantfist
-				Tooltip: ""
-			}
+	DuskPlugins: {
+		DisplayName: Dusk Plugins
+		Tooltip: ""
+	}
 
-			Holy: {
-				DisplayName: Holy
-				Tooltip: ""
-			}
+	EyePlugins: {
+		DisplayName: Eye Plugins
+		Tooltip: ""
+	}
 
-			Meatball: {
-				DisplayName: Meatball
-				Tooltip: ""
-			}
+	GelatinJellyPlugins: {
+		DisplayName: Gelatin Jelly Plugins
+		Tooltip: ""
+	}
 
-			MorePlugins_Dusk: {
-				DisplayName: More Plugins_ Dusk
-				Tooltip: ""
-			}
+	GhostPlugins: {
+		DisplayName: Ghost Plugins
+		Tooltip: ""
+	}
 
-			MorePlugins_Guide: {
-				DisplayName: More Plugins_ Guide
-				Tooltip: ""
-			}
+	GiantfistPlugins: {
+		DisplayName: Giantfist Plugins
+		Tooltip: ""
+	}
 
-			MorePlugins_HeartOfSteel: {
-				DisplayName: More Plugins_ Heart Of Steel
-				Tooltip: ""
-			}
+	GuidePlugins: {
+		DisplayName: Guide Plugins
+		Tooltip: ""
+	}
 
-			MorePlugins_Kaishakunin: {
-				DisplayName: More Plugins_ Kaishakunin
-				Tooltip: ""
-			}
+	HandPlugins: {
+		DisplayName: Hand Plugins
+		Tooltip: ""
+	}
 
-			MorePlugins_LavaSeed: {
-				DisplayName: More Plugins_ Lava Seed
-				Tooltip: ""
-			}
+	HeartOfQueenPlugins: {
+		DisplayName: Heart Of Queen Plugins
+		Tooltip: ""
+	}
 
-			MorePlugins_Leaf: {
-				DisplayName: More Plugins_ Leaf
-				Tooltip: ""
-			}
+	HeartofSteelPlugins: {
+		DisplayName: Heartof Steel Plugins
+		Tooltip: ""
+	}
 
-			MorePlugins_Massacre: {
-				DisplayName: More Plugins_ Massacre
-				Tooltip: ""
-			}
+	HolyPlugins: {
+		DisplayName: Holy Plugins
+		Tooltip: ""
+	}
 
-			MorePlugins_Night: {
-				DisplayName: More Plugins_ Night
-				Tooltip: ""
-			}
+	KaishakuninPlugins: {
+		DisplayName: Kaishakunin Plugins
+		Tooltip: ""
+	}
 
-			MorePlugins_Nothosaur: {
-				DisplayName: More Plugins_ Nothosaur
-				Tooltip: ""
-			}
-
-			MorePlugins_Shadowyeggplant: {
-				DisplayName: More Plugins_ Shadowyeggplant
-				Tooltip: ""
-			}
-
-			MorePlugins_Steel: {
-				DisplayName: More Plugins_ Steel
-				Tooltip: ""
-			}
-
-			MorePlugins_Thorn: {
-				DisplayName: More Plugins_ Thorn
-				Tooltip: ""
-			}
-
-			NuclearWarhead: {
-				DisplayName: Nuclear Warhead
-				Tooltip: ""
-			}
-
-			Outdoorsurvivalkit: {
-				DisplayName: Outdoorsurvivalkit
-				Tooltip: ""
-			}
-
-			Pure: {
-				DisplayName: Pure
-				Tooltip: ""
-			}
-
-			Shaman: {
-				DisplayName: Shaman
-				Tooltip: ""
-			}
-
-			Tanghulu: {
-				DisplayName: Tanghulu
-				Tooltip: ""
-			}
-
-			TerraHeart: {
-				DisplayName: Terra Heart
-				Tooltip: ""
-			}
-
-			Unity: {
-				DisplayName: Unity
-				Tooltip: ""
-			}
-
-			Vibrissa: {
-				DisplayName: Vibrissa
-				Tooltip: ""
-			}
-		}
+	LavaSeedPlugins: {
+		Tooltip: ""
+		DisplayName: Lava Seed Plugins
 	}
 }
 
 Projectiles: {
-	BloodThornProjectile.DisplayName: Blood Thorn Projectile
-	DiscoCrystalProjectile.DisplayName: Disco Crystal Projectile
 	PlusinsPetProjectile.DisplayName: Plusins Pet Projectile
 	DetonatorPluginsProjectile.DisplayName: Detonator Plugins Projectile
 }
 
 AccessorySlot: {
-	FunctionalSlot: Wings
-	VanitySlot: Vanity Wings
-	DyeSlot: Dye
+	FunctionalSlot: This is YOU ASS
+	VanitySlot: DyeSlot:
 }
 
 Buffs: {
