@@ -209,7 +209,7 @@ Items: {
 
 	DetonatorPlugins: {
 		DisplayName: 雷管
-		Tooltip: 
+		Tooltip:
 			'''
 			角色死亡时爆炸
 			[c/7f7f7f:劳斯莱斯年审时被拉爆缸，检测公司：十年车龄已拖到维修厂 ——大象新闻]
@@ -337,6 +337,11 @@ Items: {
 			[c/ff4500:古道热肠]
 			'''
 		DisplayName: 熔岩之心
+	}
+
+	EnchantedPlusins: {
+		// DisplayName: Enchanted Plusins
+		// Tooltip: ""
 	}
 }
 

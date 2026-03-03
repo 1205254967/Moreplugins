@@ -158,6 +158,11 @@ Items: {
 		Tooltip: ""
 		DisplayName: Lava Seed Plugins
 	}
+
+	EnchantedPlusins: {
+		DisplayName: Enchanted Plusins
+		Tooltip: ""
+	}
 }
 
 Projectiles: {

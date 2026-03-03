@@ -1,6 +1,7 @@
 using Terraria;
 using Terraria.ModLoader;
 using Terraria.GameContent.ItemDropRules;
+using Terraria.ID;
 
 namespace Moreplugins.Content.GlobalNPCs
 {
@@ -12,7 +13,7 @@ namespace Moreplugins.Content.GlobalNPCs
         public override void ModifyNPCLoot(NPC npc, NPCLoot npcLoot)
         {
             // 让光之女皇掉落手饰品（参考Terraprisma的掉落机制）
-            if (npc.type == 636)
+            if (npc.type == NPCID.HallowBoss)
             {
                 // 创建自定义条件类来检测白天
                 var daytimeCondition = new DaytimeCondition();
