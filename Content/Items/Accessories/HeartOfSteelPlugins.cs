@@ -1,9 +1,9 @@
 // 仅保留必需命名空间，避免冗余导致的加载问题
+using Moreplugins.Content.Items.Accessories;
+using Moreplugins.Core.Utilities;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Moreplugins.Content.Items.Accessories;
-using Moreplugins.Content.Players;
 
 // 模组命名空间严格改为 MorePlugins（符合C#命名规范，空格替换为驼峰）
 // 注：C#命名空间不支持空格，此处用MorePlugins替代"More plugins"，tModLoader模组名可在build.txt中配置
@@ -60,7 +60,7 @@ namespace MorePlugins.Content.Items.Accessories
 
             // 乘算5%：额外乘法叠加，符合原版机制
             player.GetDamage(DamageClass.Generic) *= MultiplicativeDamageBoost;
-            player.GetModPlayer<PluginsPlayer>().SoundAcc = true;
+            player.MPPlayer().SoundAcc = true;
         }
         #endregion
     }

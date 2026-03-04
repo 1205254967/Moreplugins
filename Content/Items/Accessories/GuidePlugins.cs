@@ -1,9 +1,8 @@
-using Microsoft.Xna.Framework;
+using Moreplugins.Core.Utilities;
 using System.Collections.Generic;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Moreplugins.Content.Players;
 
 namespace Moreplugins.Content.Items.Accessories
 {
@@ -40,7 +39,7 @@ namespace Moreplugins.Content.Items.Accessories
 
             // 武器伤害直接在面板上增加3点
             player.GetDamage(DamageClass.Generic).Flat += 3f;
-            player.GetModPlayer<PluginsPlayer>().SoundAcc = true;
+            player.MPPlayer().SoundAcc = true;
         }
         #endregion
 

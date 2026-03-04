@@ -1,23 +1,19 @@
 ﻿using Moreplugins.Content.Items.Accessories;
 using Moreplugins.Content.Pets;
-using Moreplugins.Globals.Methods;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Moreplugins.Core.DropCondition;
+using Moreplugins.Core.Utilities;
 using Terraria;
 using Terraria.GameContent.ItemDropRules;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Moreplugins.Globals.Instances
+namespace Moreplugins.Core.GlobalInstance.NPCs
 {
-    public class PluginGlobalNPC : GlobalNPC
+    public partial class PluginGlobalNPC : GlobalNPC
     {
         public override void ModifyShop(NPCShop shop)
         {
-            switch(shop.NpcType)
+            switch (shop.NpcType)
             {
                 case NPCID.Demolitionist:
                     shop.Add<DetonatorPlugins>();
@@ -75,32 +71,5 @@ namespace Moreplugins.Globals.Instances
 
             }
         }
-        /// <summary>
-        /// 检测白天的条件类
-        /// </summary>
-        public class DaytimeCondition : IItemDropRuleCondition
-        {
-            public bool CanDrop(DropAttemptInfo info)
-            {
-                return Main.dayTime;
-            }
-
-            public bool CanShowItemDropInUI()
-            {
-                return true;
-            }
-
-            public string GetConditionDescription()
-            {
-                //别特么用硬编码我草
-                //所有这种要显示给玩家的内容必须得统一用本地化
-                //return "在白天击败光之女皇时掉落";
-
-                //这里使用了封装的拓展方法
-                //具体语义可以跳转一下
-                return $"Mods.Moreplugins.PluginConditoins.OnDaytimeEmpress".ToLanValue();
-            }
-        }
-
     }
 }

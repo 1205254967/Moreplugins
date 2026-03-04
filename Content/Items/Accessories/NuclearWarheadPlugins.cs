@@ -1,9 +1,8 @@
 using Microsoft.Xna.Framework;
+using Moreplugins.Core.Utilities;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Terraria.DataStructures;
-using Moreplugins.Content.Players;
 
 namespace Moreplugins.Content.Items.Accessories
 {
@@ -43,7 +42,7 @@ namespace Moreplugins.Content.Items.Accessories
         {
             // 标记饰品已装备
             player.GetModPlayer<NuclearWarheadPlayer>().nuclearWarheadEquipped = true;
-            player.GetModPlayer<PluginsPlayer>().SoundAcc = true;
+            player.MPPlayer().SoundAcc = true;
         }
         #endregion
     }
@@ -66,7 +65,7 @@ namespace Moreplugins.Content.Items.Accessories
             if (nuclearWarheadEquipped)
             {
                 nukeTimer++;
-                if (nukeTimer >= 180)//30秒
+                if (nukeTimer >= 1800)//30秒
                 {
                     SpawnFirstNuke();
                     nukeTimer = 0;
@@ -118,8 +117,6 @@ namespace Moreplugins.Content.Items.Accessories
         }
 
         // 移除OnHitNPC方法，改为使用全局projectile钩子
-
-
         private NPC FindNearestEnemy()
         {
             NPC target = null;

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Moreplugins.Content.Players;
+using Moreplugins.Core.Utilities;
 
 namespace Moreplugins.Content.Items.Accessories
 {
@@ -30,7 +30,7 @@ namespace Moreplugins.Content.Items.Accessories
         public override void UpdateAccessory(Player player, bool hideVisual)
         {
             player.GetModPlayer<MeatballPlayer>().meatballEquipped = true;
-            player.GetModPlayer<PluginsPlayer>().SoundAcc = true;
+            player.MPPlayer().SoundAcc = true;
         }
         #endregion
     }
@@ -82,7 +82,7 @@ namespace Moreplugins.Content.Items.Accessories
                         Player.GetSource_Accessory(Player.HeldItem),
                         spawnPosition,
                         Vector2.Zero, // 初始速度为0，让血荆棘自己生长
-                        756, // 血荆棘的射弹ID
+                        ProjectileID.SharpTears, // 血荆棘的射弹ID
                         30,
                         3f,
                         Player.whoAmI

@@ -4,7 +4,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.DataStructures;
-using Moreplugins.Content.Players;
+using Moreplugins.Core.Utilities;
 
 namespace Moreplugins.Content.Items.Accessories
 {
@@ -30,7 +30,7 @@ namespace Moreplugins.Content.Items.Accessories
         public override void UpdateAccessory(Player player, bool hideVisual)
         {
             player.GetModPlayer<ShamanPlayer>().shamanEquipped = true;
-            player.GetModPlayer<PluginsPlayer>().SoundAcc = true;
+            player.MPPlayer().SoundAcc = true;
         }
         #endregion
     }
@@ -81,7 +81,7 @@ namespace Moreplugins.Content.Items.Accessories
                             Player.GetSource_Accessory(Player.HeldItem),
                             Player.Center,
                             direction * speed,
-                            496, // 暗影焰娃娃的射弹ID
+                            ProjectileID.ShadowFlame, // 暗影焰娃娃的射弹ID
                             25, // 与原版暗影焰娃娃相同的伤害
                             1f,
                             Player.whoAmI
@@ -96,7 +96,7 @@ namespace Moreplugins.Content.Items.Accessories
                         tentacle.netUpdate = true;
 
                         // 对敌人造成暗影焰效果
-                        npc.AddBuff(153, 300); // 暗影焰增益ID，5秒 = 300帧
+                        npc.AddBuff(BuffID.ShadowFlame, 300); // 暗影焰增益ID，5秒 = 300帧
                     }
                 }
             }

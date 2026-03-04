@@ -1,11 +1,6 @@
-using Microsoft.Xna.Framework;
-using System;
+using Moreplugins.Core.Utilities;
 using Terraria;
 using Terraria.ID;
-using Terraria.ModLoader;
-using Terraria.DataStructures;
-using Moreplugins.Content.Players;
-
 
 namespace Moreplugins.Content.Items.Accessories
 {
@@ -38,7 +33,7 @@ namespace Moreplugins.Content.Items.Accessories
             player.wingTimeMax = (int)(player.wingTimeMax * 1.1f);
             // 提升10%飞行速度
             player.maxFallSpeed += 0.1f;
-            player.GetModPlayer<PluginsPlayer>().SoundAcc = true;
+            player.MPPlayer().SoundAcc = true;
         }
         #endregion
 

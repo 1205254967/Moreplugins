@@ -1,6 +1,6 @@
+using Moreplugins.Core.Utilities;
 using Terraria;
 using Terraria.ModLoader;
-using Moreplugins.Content.Players;
 
 namespace Moreplugins.Content.Items.Accessories
 {
@@ -20,7 +20,7 @@ namespace Moreplugins.Content.Items.Accessories
         }
         public override void UpdateAccessory(Player player, bool hideVisual)
         {
-            player.GetModPlayer<PluginsPlayer>().SoundAcc = true;
+            player.MPPlayer().SoundAcc = true;
         }
     }
 }

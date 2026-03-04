@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Moreplugins.Content.Players;
+using Moreplugins.Core.Utilities;
 
 namespace Moreplugins.Content.Items.Accessories
 {
@@ -47,7 +47,7 @@ namespace Moreplugins.Content.Items.Accessories
 
             // 跳跃速度提升，间接增加跳跃高度
             player.jumpSpeedBoost += 0.5f;
-            player.GetModPlayer<PluginsPlayer>().SoundAcc = true;
+            player.MPPlayer().SoundAcc = true;
         }
         #endregion
 

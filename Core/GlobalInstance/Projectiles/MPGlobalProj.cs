@@ -5,11 +5,10 @@ using Terraria.DataStructures;
 using Terraria.ID;
 using Terraria.ModLoader;
 
-namespace Moreplugins.Globals.Instances
+namespace Moreplugins.Core.GlobalInstance.Projectiles
 {
-    public class PluginGlobalProj : GlobalProjectile
+    public partial class MPGlobalProj : GlobalProjectile
     {
-
         public override bool InstancePerEntity => true;
         public override void OnSpawn(Projectile projectile, IEntitySource source)
         {
@@ -24,18 +23,17 @@ namespace Moreplugins.Globals.Instances
                     if (modPlayer.discoEquipped)
                     {
                         // 设置射弹伤害为500
-                        projectile.damage = 240;
+                        projectile.damage = 500;
                         projectile.netUpdate = true;
                     }
                 }
             }
         }
-
         //Scarlet: 这写法必定出事但是他妈的这段AI码也太他妈逆天了吧有时间再改吧
         public override void OnHitNPC(Projectile projectile, NPC target, NPC.HitInfo hit, int damageDone)
         {
             // 检查是否是核弹饰品发射的导弹（通过ai[2]标记）
-            
+
             if (projectile.ai[2] == 1f)
             {
                 // 获取发射导弹的玩家

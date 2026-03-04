@@ -1,9 +1,9 @@
 using Microsoft.Xna.Framework;
+using Moreplugins.Core.Utilities;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Moreplugins.Content.Items.Accessories;
-using Moreplugins.Content.Players;
+
 namespace Moreplugins.Content.Items.Accessories
 {
     /// <summary>
@@ -29,7 +29,7 @@ namespace Moreplugins.Content.Items.Accessories
         {
             player.GetModPlayer<DiscoPlayer>().discoEquipped = true;
             player.maxTurrets += 1; // 增加一哨兵栏位
-            player.GetModPlayer<PluginsPlayer>().SoundAcc = true;
+            player.MPPlayer().SoundAcc = true;
         }
         #endregion
     }

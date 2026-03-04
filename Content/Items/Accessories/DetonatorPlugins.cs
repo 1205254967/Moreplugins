@@ -1,11 +1,6 @@
 ﻿using Microsoft.Xna.Framework;
-using Moreplugins.Content.Players;
 using Moreplugins.Content.Projectiles;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Moreplugins.Core.Utilities;
 using Terraria;
 using Terraria.DataStructures;
 using Terraria.ID;
@@ -28,7 +23,7 @@ namespace Moreplugins.Content.Items.Accessories
         {
             // 标记饰品已装备
             player.GetModPlayer<DetonatorPluginsPlayer>().DetonatorPluginsEquipped = true;
-            player.GetModPlayer<PluginsPlayer>().SoundAcc = true;
+            player.MPPlayer().SoundAcc = true;
         }
     }
 }

@@ -1,9 +1,10 @@
 using Microsoft.Xna.Framework;
+using Moreplugins.Core.Utilities;
 using System;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Moreplugins.Content.Players;
+
 
 namespace Moreplugins.Content.Items.Accessories
 {
@@ -47,7 +48,7 @@ namespace Moreplugins.Content.Items.Accessories
             player.GetCritChance(DamageClass.Summon) += 0.3f;
             // 5点护甲穿透
             player.GetArmorPenetration(DamageClass.Summon) += 5;
-            player.GetModPlayer<PluginsPlayer>().SoundAcc = true;
+            player.MPPlayer().SoundAcc = true;
         }
         #endregion
     }

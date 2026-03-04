@@ -4,7 +4,7 @@ using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
 using Terraria.Audio;
-using Moreplugins.Content.Players;
+using Moreplugins.Core.Utilities;
 
 namespace Moreplugins.Content.Items.Accessories
 {
@@ -66,7 +66,7 @@ namespace Moreplugins.Content.Items.Accessories
 
             // 工具使用速度提升5%
             player.pickSpeed -= 0.05f; // 原版逻辑：数值越小速度越快
-            player.GetModPlayer<PluginsPlayer>().SoundAcc = true;
+            player.MPPlayer().SoundAcc = true;
         }
         #endregion
 

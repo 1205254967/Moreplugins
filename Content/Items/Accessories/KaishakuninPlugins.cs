@@ -1,9 +1,9 @@
-using Microsoft.Xna.Framework;
+using Moreplugins.Core.Utilities;
 using System.Collections.Generic;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Moreplugins.Content.Players;
+
 
 namespace Moreplugins.Content.Items.Accessories
 {
@@ -41,7 +41,7 @@ namespace Moreplugins.Content.Items.Accessories
         {
             // 标记饰品已装备
             player.GetModPlayer<KaishakuninPlayer>().kaishakuninEquipped = true;
-            player.GetModPlayer<PluginsPlayer>().SoundAcc = true;
+            player.MPPlayer().SoundAcc = true;
         }
         #endregion
 

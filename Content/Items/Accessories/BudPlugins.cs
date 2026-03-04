@@ -1,10 +1,8 @@
 using Microsoft.Xna.Framework;
+using Moreplugins.Core.Utilities;
 using Terraria;
 using Terraria.ID;
 using Terraria.ModLoader;
-using Terraria.DataStructures;
-using System;
-using Moreplugins.Content.Players;
 
 
 namespace Moreplugins.Content.Items.Accessories
@@ -41,7 +39,7 @@ namespace Moreplugins.Content.Items.Accessories
         {
             // 标记饰品已装备
             player.GetModPlayer<BudPlayer>().budEquipped = true;
-            player.GetModPlayer<PluginsPlayer>().SoundAcc = true;
+            player.MPPlayer().SoundAcc = true;
         }
         #endregion
     }
