@@ -47,7 +47,7 @@ namespace Moreplugins.Content.Items.Accessories
                     menacing += 2;
                     continue;
                 }
-                if (acc.prefix == PrefixID.Quick)
+                if (acc.prefix == PrefixID.Quick2)
                 {
                     quick += 2;
                     continue;
@@ -69,7 +69,7 @@ namespace Moreplugins.Content.Items.Accessories
             player.moveSpeed += quick / 100f;
 
             ref float genericAttackSpeed = ref player.GetAttackSpeed<GenericDamageClass>();
-            genericAttackSpeed += lucky;
+            genericAttackSpeed += violent;
         }
     }
 
@@ -87,7 +87,7 @@ namespace Moreplugins.Content.Items.Accessories
             int MenacingFlavorTooltipIndex = tooltips.FindIndex(line => line.Name == "PrefixAccDamage" && line.Mod == "Terraria");
             int QuickFlavorTooltipIndex = tooltips.FindIndex(line => line.Name == "PrefixAccMoveSpeed" && line.Mod == "Terraria");
             int ViolentFlavorTooltipIndex = tooltips.FindIndex(line => line.Name == "PrefixAccMeleeSpeed" && line.Mod == "Terraria");
-
+          
             string wardingvalue = Language.GetTextValue("Mods.Moreplugins.EnchantedPlusinsTooltip.Warding");
             string luckyvalue = Language.GetTextValue("Mods.Moreplugins.EnchantedPlusinsTooltip.Lucky");
             string menacingvalue = Language.GetTextValue("Mods.Moreplugins.EnchantedPlusinsTooltip.Menacing");
@@ -123,9 +123,9 @@ namespace Moreplugins.Content.Items.Accessories
                         tooltips.Insert(MenacingFlavorTooltipIndex + 1, flavorTooltip);
                         continue;
                     }
-                    if (acc.prefix == PrefixID.Quick)
+                    if (acc.prefix == PrefixID.Quick2)
                     {
-                        TooltipLine flavorTooltip = new TooltipLine(Mod, "QuickPrefixTooltipName", luckyvalue);
+                        TooltipLine flavorTooltip = new TooltipLine(Mod, "QuickPrefixTooltipName", quickvalue);
                         if (QuickFlavorTooltipIndex + 1 == 0) { continue; }
                         tooltips.Insert(QuickFlavorTooltipIndex + 1, flavorTooltip);
                         continue;
