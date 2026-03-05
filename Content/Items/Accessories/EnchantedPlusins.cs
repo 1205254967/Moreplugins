@@ -1,5 +1,5 @@
 ﻿using Moreplugins.Content.Players;
-using ReLogic.Utilities;
+using Moreplugins.Core.Utilities;
 using System.Collections.Generic;
 using Terraria;
 using Terraria.ID;
@@ -12,17 +12,15 @@ namespace Moreplugins.Content.Items.Accessories
     {
         public override void SetDefaults()
         {
-            Item.width = 32;
-            Item.height = 32;
-            Item.accessory = true;
             Item.rare = ItemRarityID.Green;
             Item.value = Item.sellPrice(gold: 20);
+            base.SetDefaults();    
         }
 
         public override void UpdateAccessory(Player player, bool hideVisual)
         {
             base.UpdateAccessory(player, hideVisual);
-            player.GetModPlayer<PluginsPlayer>().enchantedacc = true;
+            player.MPPlayer().enchantedacc = true;
             int warding = 0;
             int lucky = 0;
             int menacing = 0;
@@ -32,10 +30,6 @@ namespace Moreplugins.Content.Items.Accessories
             for (int i = 0; i < player.armor.Length; i++)
             {
                 Item acc = player.armor[i];
-                if (i >= 13 && i <= 19)
-                {
-                    continue;
-                }
                 if (acc.prefix == PrefixID.Warding)
                 {
                     warding += 2;
@@ -97,7 +91,7 @@ namespace Moreplugins.Content.Items.Accessories
             string menacingvalue = Language.GetTextValue("Mods.Moreplugins.EnchantedPlusinsTooltip.Menacing");
             string quickvalue = Language.GetTextValue("Mods.Moreplugins.EnchantedPlusinsTooltip.Quick");
             string violentvalue = Language.GetTextValue("Mods.Moreplugins.EnchantedPlusinsTooltip.Violent");
-            if (player.GetModPlayer<PluginsPlayer>().enchantedacc)
+            if (player.MPPlayer().enchantedacc)
             {
                 for (int i = 0; i < player.armor.Length; i++)
                 {
