@@ -95,6 +95,7 @@ namespace Moreplugins.Content.Players
             budEquipped = false;
             detonatorPluginsEquipped = false;
             discoEquipped = false;
+            duskEquipped = false;
             enchantedacc = false;
             ghostEquipped = false;
             giantfistEquipped = false;
