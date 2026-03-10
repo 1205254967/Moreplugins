@@ -22,7 +22,7 @@ namespace Moreplugins.Content.Items.Accessories
         public override void AddRecipes()
         {
             CreateRecipe()
-                .AddRecipeGroup("Wood", 10)
+                .AddRecipeGroup(RecipeGroupID.Wood, 10)
                 .AddTile(TileID.WorkBenches)
                 .Register();
         }

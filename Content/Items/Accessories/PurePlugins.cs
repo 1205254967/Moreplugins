@@ -22,8 +22,8 @@ namespace Moreplugins.Content.Items.Accessories
         public override void AddRecipes()
         {
             CreateRecipe()
-                .AddIngredient(ModContent.ItemType<HolyPlugins>(), 1)       // Holy饰品
-                .AddIngredient(ItemID.BrokenHeroSword, 1) // 断裂英雄剑
+                .AddIngredient(ItemType<HolyPlugins>())       // Holy饰品
+                .AddIngredient(ItemID.BrokenHeroSword) // 断裂英雄剑
                 .AddTile(TileID.MythrilAnvil)               // 秘银砧/山铜砧合成
                 .Register();
         }
