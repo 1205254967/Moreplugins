@@ -35,12 +35,12 @@ namespace Moreplugins.Content.Players
         public bool kaishakuninEquipped; // 饰品是否装备
         public int boostTimer; // 伤害提升计时器
         public bool damageBoostActive; // 伤害提升是否激活
-                                       // 熔岩之心插件用
+        // 熔岩之心插件用
         public bool lavaSeedEquipped;
         // 血腥插件用
         public bool massacreEquipped; // 饰品是否装备
         private Dictionary<int, int> bleedingNPCs; // 存储流血的NPC和计时器
-                                                   // 肉球插件用
+        // 肉球插件用
         public bool meatballEquipped;
         private int thornTimer;
         // 永夜插件用
@@ -58,9 +58,9 @@ namespace Moreplugins.Content.Players
         private int eyeTimer;
         private int spazmaminiProjectileId = -1; // 存储Spazmamini的 projectile ID
         private int retaniminiProjectileId = -1; // 存储Retanimini的 projectile ID
-                                                 // 纯净插件用
+        // 纯净插件用
         public bool pureEquipped; // 饰品是否装备
-                                  // 萨满插件用
+        // 萨满插件用
         public bool shamanEquipped;
         private int samanAttackTimer;
         // 腐化插件用
@@ -72,7 +72,7 @@ namespace Moreplugins.Content.Players
         public int terraHeartAttackTimer;
         public bool terraHeartAamageBoostActive;
         private bool isBoostedHit; // 标记是否是提升后的伤害
-                                   // 团结插件用
+        // 团结插件用
         public bool unityEquipped;
         private int[] starCellProjectileIds = new int[3] { -1, -1, -1 };
         // 黄蜂插件用

@@ -2,6 +2,7 @@
 using Moreplugins.Content.Items.Accessories;
 using Moreplugins.Content.Players;
 using Moreplugins.Core.Utilities;
+using System;
 using Terraria;
 using Terraria.DataStructures;
 using Terraria.ID;
@@ -31,6 +32,7 @@ namespace Moreplugins.Core.GlobalInstance.Projectiles
                 }
             }
         }
+
         //Scarlet: 这写法必定出事但是他妈的这段AI码也太他妈逆天了吧有时间再改吧
         public override void OnHitNPC(Projectile projectile, NPC target, NPC.HitInfo hit, int damageDone)
         {
